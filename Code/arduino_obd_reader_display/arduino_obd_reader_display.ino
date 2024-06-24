@@ -2,10 +2,9 @@
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
 #include "AltSoftSerial.h"
 
-
 #include "OBD9141.h"
 
-#define RX_PIN 9   // connect to transceiver Rx
+#define RX_PIN 12   // connect to transceiver Rx
 #define TX_PIN 10   // connect to transceiver Tx
 #define EN_PIN 11  //  pin will be set high (connect to EN pin of SN65HVDA100)
 
