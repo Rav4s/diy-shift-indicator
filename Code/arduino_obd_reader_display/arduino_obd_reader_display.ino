@@ -7,8 +7,8 @@
 
 #include "OBD9141.h"
 
-#define RX_PIN 12  // connect to transceiver Rx
-#define TX_PIN 10  // connect to transceiver Tx
+#define RX_PIN 8  // connect to transceiver Rx
+#define TX_PIN 9  // connect to transceiver Tx
 #define EN_PIN 11  //  pin will be set high (connect to EN pin of SN65HVDA100)
 
 AltSoftSerial altSerial;
@@ -33,7 +33,7 @@ void loop(){
     Serial.print("init_success:");
     Serial.println(init_success);
 
-    //init_success = true;
+    // init_success = true;
     // Uncomment this line if you use the simulator to force the init to be
     // interpreted as successful. With an actual ECU; be sure that the init is 
     // succesful before trying to request PID's.
