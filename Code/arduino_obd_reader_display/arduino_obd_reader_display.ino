@@ -1,4 +1,4 @@
-// IMPORTANT: Changed delay in ISO9141 library to match logic analyzer findings on K-Line - specifically, reduced by TODO amount
+// IMPORTANT: Changed delay in ISO9141 library to match logic analyzer findings on K-Line - specifically, changed initialization serial timeout to 150ms
 
 #include "Arduino.h"
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
