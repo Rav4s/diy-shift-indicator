@@ -1,5 +1,6 @@
 // IMPORTANT: Changed delay in ISO9141 library to match logic analyzer findings on K-Line - specifically, changed initialization serial timeout to 150ms
 // TODO: add the modified library files to github
+// TODO: add file for LED driver (function?) and use that here - make it so simply inputting an RPM value to that will flash the LEDs in the proper way. And a different flash for initialization sequence or any errors or out of bound values etc.
 #include "Arduino.h"
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
 #include "AltSoftSerial.h"
@@ -41,11 +42,6 @@ void loop(){
     if (init_success){
         bool res;
         while(1){
-            res = obd.getCurrentPID(0x11, 1);
-            if (res){
-                Serial.print("Result 0x11 (throttle): ");
-                Serial.println(obd.readUint8());
-            }
             
             res = obd.getCurrentPID(0x0C, 2);
             if (res){
@@ -53,14 +49,9 @@ void loop(){
                 Serial.println(obd.readUint16()/4);
             }
 
-            res = obd.getCurrentPID(0x0D, 1);
-            if (res){
-                Serial.print("Result 0x0D (speed): ");
-                Serial.println(obd.readUint8());
-            }
             Serial.println();
 
-            delay(1000);
+            delay(100);
         }
     }
     delay(3000);
