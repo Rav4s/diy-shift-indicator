@@ -1,6 +1,7 @@
 // IMPORTANT: Changed delay in ISO9141 library to match logic analyzer findings on K-Line - specifically, changed initialization serial timeout to 150ms
 // TODO: add the modified library files to github
 // TODO: add file for LED driver (function?) and use that here - make it so simply inputting an RPM value to that will flash the LEDs in the proper way. And a different flash for initialization sequence or any errors or out of bound values etc.
+
 #include "Arduino.h"
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
 #include "AltSoftSerial.h"
@@ -33,11 +34,6 @@ void loop(){
     bool init_success =  obd.init();
     Serial.print("init_success:");
     Serial.println(init_success);
-
-    // init_success = true;
-    // Uncomment this line if you use the simulator to force the init to be
-    // interpreted as successful. With an actual ECU; be sure that the init is 
-    // succesful before trying to request PID's.
 
     if (init_success){
         bool res;
