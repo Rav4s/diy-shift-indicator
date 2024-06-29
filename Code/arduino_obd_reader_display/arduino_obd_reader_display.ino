@@ -9,46 +9,71 @@
 
 #include "OBD9141.h"
 
-#define RX_PIN 8  // connect to transceiver Rx
-#define TX_PIN 9  // connect to transceiver Tx
+// Pin definitions for TI LIN bus transceiver
+#define RX_PIN 8   // connect to transceiver Rx
+#define TX_PIN 9   // connect to transceiver Tx
 #define EN_PIN 11  //  pin will be set high (connect to EN pin of SN65HVDA100)
+
+// Pin definitions for 7 LED display
+#define GREEN_ONE 12
+#define GREEN_TWO 7
+#define GREEN_THREE 6
+#define YELLOW_ONE 5
+#define YELLOW_TWO 4
+#define RED_ONE 3
+#define RED_TWO 2
 
 AltSoftSerial altSerial;
 
 OBD9141 obd;
 
 
-void setup(){
-    Serial.begin(9600);
-    delay(2000);
-    pinMode(EN_PIN, OUTPUT);
-    digitalWrite(EN_PIN, HIGH); // enable the transceiver IC.
+void setup() {
 
-    obd.begin(altSerial, RX_PIN, TX_PIN);
+  // Set all LED pins as outputs
+  pinMode(GREEN_ONE, OUTPUT);
+  pinMode(GREEN_TWO, OUTPUT);
+  pinMode(GREEN_THREE, OUTPUT);
+  pinMode(YELLOW_ONE, OUTPUT);
+  pinMode(YELLOW_TWO, OUTPUT);
+  pinMode(RED_ONE, OUTPUT);
+  pinMode(RED_TWO, OUTPUT);
 
+  Serial.begin(9600);
+  delay(2000);
+  pinMode(EN_PIN, OUTPUT);
+  digitalWrite(EN_PIN, HIGH);  // enable the transceiver IC.
+
+  obd.begin(altSerial, RX_PIN, TX_PIN);
 }
-    
-void loop(){
-    Serial.println("Looping");
 
-    bool init_success =  obd.init();
-    Serial.print("init_success:");
-    Serial.println(init_success);
+void loop() {
+  Serial.println("Looping");
 
-    if (init_success){
-        bool res;
-        while(1){
-            
-            res = obd.getCurrentPID(0x0C, 2);
-            if (res){
-                Serial.print("Result 0x0C (RPM): ");
-                Serial.println(obd.readUint16()/4);
-            }
+  bool init_success = obd.init(); // Attempt to initialize connection with ECU
+  Serial.print("init_success:");
+  Serial.println(init_success);
 
-            Serial.println();
+  if (init_success) {
 
-            delay(100);
-        }
+    startup(); // Display startup sequence on LEDs
+
+    bool res;
+    int RPM;
+    while (1) {
+
+      res = obd.getCurrentPID(0x0C, 2);
+      if (res) {
+        Serial.print("Result 0x0C (RPM): ");
+        RPM = (obd.readUint16() / 4);
+        Serial.println(RPM);
+        displayRPM(RPM);
+      }
+
+      Serial.println();
+
+      delay(100);
     }
-    delay(3000);
+  }
+  delay(3000);
 }
