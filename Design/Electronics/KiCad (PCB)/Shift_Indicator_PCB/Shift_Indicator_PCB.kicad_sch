@@ -4606,7 +4606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-BATT"
+		(property "Value" "+BATT"
 			(at 118.11 21.59 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-BATT"
+		(property "Value" "+BATT"
 			(at 33.02 30.48 0)
 			(effects
 				(font
