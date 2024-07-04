@@ -3074,6 +3074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTL-709Y"
+			(at 219.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6102a42d-e471-476d-a579-2c661c43166c")
 		)
@@ -3208,6 +3217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTL-709L"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcfa70a0-33af-46d1-9842-3468b85b74eb")
 		)
@@ -3270,6 +3288,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0805B104K101CC"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -3350,6 +3377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Shift_Indicator_PCB"
 				(path "/f31b344f-d38e-4555-82b7-3ce447122105"
@@ -3404,6 +3440,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PPTC111LFBN-RC"
 			(at 146.05 142.24 0)
 			(effects
 				(font
@@ -3575,6 +3620,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRGCQ0805F220R"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67001939-dbe7-4cbe-92c4-84eab3c0af14")
 		)
@@ -3637,6 +3691,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRGCQ0805F220R"
 			(at 198.12 82.55 0)
 			(effects
 				(font
@@ -3845,6 +3908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTL-709E"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93cbeae3-11d8-4b9f-bc39-cd12a7758739")
 		)
@@ -3907,6 +3979,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN65HVDA195QDRQ1"
 			(at 60.96 83.82 0)
 			(effects
 				(font
@@ -4001,6 +4082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "0805B221K500BD"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a40a1941-e8ce-46a3-b038-b0664dc57772")
 		)
@@ -4063,6 +4153,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRGCQ0805F220R"
 			(at 180.34 82.55 0)
 			(effects
 				(font
@@ -4141,6 +4240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRGCQ0805F220R"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36f53eed-da32-4a94-a223-2efc54d8069f")
 		)
@@ -4203,6 +4311,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRGCQ0805F220R"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -4289,6 +4406,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 39.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1N4007-T"
 			(at 39.37 38.1 0)
 			(effects
 				(font
@@ -4433,6 +4559,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRGCQ0805F220R"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6cd4225-34ef-4eac-bdf9-6bd5b3f17493")
 		)
@@ -4503,6 +4638,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "F6094-ND & 0235.200HXP"
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "044de69b-72e5-43f6-af67-4b431baf9f8a")
 		)
@@ -4565,6 +4709,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRGCQ0805F220R"
 			(at 215.9 82.55 0)
 			(effects
 				(font
@@ -4708,6 +4861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "PPPC031LFBN-RC"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ae082620-5f1f-454c-be3d-6adc0910c226")
 		)
@@ -4771,6 +4933,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTL-709E"
 			(at 255.27 76.2 0)
 			(effects
 				(font
@@ -4851,6 +5022,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Shift_Indicator_PCB"
 				(path "/f31b344f-d38e-4555-82b7-3ce447122105"
@@ -4905,6 +5085,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTL-709L"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -4975,6 +5164,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PH1-01-UA"
 			(at 105.41 29.21 0)
 			(effects
 				(font
@@ -5118,6 +5316,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Shift_Indicator_PCB"
 				(path "/f31b344f-d38e-4555-82b7-3ce447122105"
@@ -5174,6 +5381,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-071KL"
 			(at 71.12 52.07 0)
 			(effects
 				(font
@@ -5447,6 +5663,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTL-709L"
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "418b4a8d-2897-4b71-ae56-581bd9460af1")
 		)
@@ -5575,6 +5800,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERJ-6ENF4991V "
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -5717,6 +5951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTL-709Y"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "331265d7-595c-4cee-aa64-19078bd0190d")
 		)
@@ -5779,6 +6022,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PH1-01-UA"
 			(at 90.17 62.23 0)
 			(effects
 				(font
@@ -5872,6 +6124,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "1N4007-T"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91d65e42-f568-4d91-8c9f-963dd56f5260")
 		)
@@ -5944,6 +6205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 262.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Shift_Indicator_PCB"
 				(path "/f31b344f-d38e-4555-82b7-3ce447122105"
@@ -6000,6 +6270,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PH1-01-UA "
 			(at 127 52.07 0)
 			(effects
 				(font
