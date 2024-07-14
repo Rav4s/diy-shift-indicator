@@ -15,7 +15,7 @@
 #define EN_PIN 11  //  pin will be set high (connect to EN pin of SN65HVDA100)
 
 // Pin definitions for 7 LED display
-#define GREEN_ONE 12
+#define GREEN_ONE 13
 #define GREEN_TWO 7
 #define GREEN_THREE 6
 #define YELLOW_ONE 5
