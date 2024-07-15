@@ -141,7 +141,9 @@ void displayRPM(int RPM) {
   reset();
 
   // Use RPM value to determine which display option to use
-  if (RPM <= 3500) {
+  if (RPM <= 3000) {
+    reset();
+  } else if (RPM <= 3500) {
     one();
   } else if (RPM <= 3930) {
     two();
