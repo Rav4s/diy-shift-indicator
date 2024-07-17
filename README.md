@@ -1,4 +1,4 @@
-# K-Line Shift Indicator
+# K-Line (ISO9141) Shift Indicator
 A DIY shift indicator for manual transmission cars like my Mazda MX-5 with a K-Line (ISO9141) OBDII interface
 
 ## Files
