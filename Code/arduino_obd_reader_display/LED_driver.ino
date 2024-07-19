@@ -135,7 +135,7 @@ void reset() {
   digitalWrite(RED_TWO, LOW);
 }
 
-// TODO: describe this
+// Illuminate a certain number of LEDs based on the input RPM value
 void displayRPM(int RPM) {
 
   reset();
