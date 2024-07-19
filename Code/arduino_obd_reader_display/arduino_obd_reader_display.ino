@@ -1,6 +1,4 @@
 // IMPORTANT: Changed delay in ISO9141 library to match logic analyzer findings on K-Line - specifically, changed initialization serial timeout to 150ms
-// TODO: add the modified library files to github
-// TODO: add file for LED driver (function?) and use that here - make it so simply inputting an RPM value to that will flash the LEDs in the proper way. And a different flash for initialization sequence or any errors or out of bound values etc.
 
 #include "Arduino.h"
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
