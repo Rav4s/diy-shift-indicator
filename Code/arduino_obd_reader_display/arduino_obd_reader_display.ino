@@ -60,17 +60,17 @@ void loop() {
     int RPM;
     while (1) {
 
-      res = obd.getCurrentPID(0x0C, 2);
+      res = obd.getCurrentPID(0x0C, 2); // request current RPM value
       if (res) {
         Serial.print("Result 0x0C (RPM): ");
-        RPM = (obd.readUint16() / 4);
+        RPM = (obd.readUint16() / 4); // convert to usable value
         Serial.println(RPM);
-        displayRPM(RPM);
+        displayRPM(RPM); // display on LED series
       }
 
       Serial.println();
 
-      delay(100);
+      delay(100); // wait 100ms to loop
     }
   }
   delay(3000);
