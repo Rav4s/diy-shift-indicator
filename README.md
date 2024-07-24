@@ -1,5 +1,5 @@
 # K-Line (ISO9141) Shift Indicator
-A DIY shift indicator for manual transmission cars like my Mazda MX-5 with a K-Line (ISO9141) OBDII interface. The device uses a series of LEDs that illuminate based on engine speed (RPM) to help the driver know when to shift gears in high-pressure situations. My technical writeup for this project, which includes rationale, insight into my design/development process, and future plans can be found [here](https://drive.google.com/file/d/1h4sEP5iF2pkmRt12-wAFUMqSv9QvsOz3/view).  
+A DIY shift indicator for manual transmission cars like my Mazda MX-5 with a K-Line (ISO9141) OBDII interface. The device uses a series of LEDs that illuminate based on engine speed (RPM) to help the driver know when to shift gears in high-pressure situations. My technical writeup for this project, which includes rationale, insight into my design/development process, and future plans can be found [here](https://drive.google.com/file/d/1h4sEP5iF2pkmRt12-wAFUMqSv9QvsOz3/view). Additionally, here are videos of the [startup sequence](https://drive.google.com/file/d/1yGfBQFOaLi5DHMowFaSR_DUKHt-pPL1-/view?usp=sharing) and the [device in action](https://drive.google.com/file/d/1uUzjxnDBYHzpRwuf0LmYo11RxKfqu849/view?usp=sharing).  
 
 ## Features
 - Displays engine RPM using a set of seven LEDs
