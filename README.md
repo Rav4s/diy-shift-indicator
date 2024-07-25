@@ -3,7 +3,7 @@ A DIY shift indicator for manual transmission cars like my Mazda MX-5 with a K-L
 
 ## Features
 - Displays engine RPM using a set of seven LEDs
-- Has three distinct LED colors to show progression from low to high RPM (green > blue > red)
+- Has three distinct LED colors to show progression from low to high RPM (green -> blue -> red)
 - Begins illuminating LEDs at the lower end of shift range (3.5k) and fully illuminates by the higher end (6k), with equal steps in between
 - Mounts to the dashboard without significantly obstructing the driver's view of the road
 - Doesn't require any modifications to wiring/electronics of the car (plug-and-play)
